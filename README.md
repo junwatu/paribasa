@@ -14,4 +14,9 @@ var paribasa = require('paribasa')
 console.log(paribasa.get())
 ```
 
+---
+
+#License 
+
+MIT License
 
