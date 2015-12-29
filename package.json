@@ -14,6 +14,15 @@
     "jawa",
     "javanese quotes"
   ],
+  "homepage": "https://github.com/junwatu/paribasa",
+  "bugs": "https://github.com/junwatu/paribasa/issues",
   "author": "Equan Pr.",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/junwatu/paribasa.git"
+  },
+  "bin": {
+    "paribasa": "./bin/paribasa"
+  },
   "license": "MIT"
 }
