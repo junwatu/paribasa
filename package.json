@@ -1,12 +1,13 @@
 {
-  "name": "paribasan",
+  "name": "paribasa",
   "version": "1.0.0",
-  "description": "Javanese Quote aka Paribasan",
+  "description": "Javanese Quote aka Paribasa",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\""
   },
   "keywords": [
+    "paribasa",
     "paribasan",
     "quote",
     "peribahasa",

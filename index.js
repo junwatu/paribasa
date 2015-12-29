@@ -1,6 +1,6 @@
 'use strict'
 
-var paribasan_jawa = require('./paribasan.json')
+var paribasan_jawa = require('./paribasa.json')
 
 function Paribasan () {}
 
@@ -9,7 +9,7 @@ Paribasan.prototype.get = function () {
     return paribasan_jawa[k]
   })
   var moratmarit = paribasan_jawa[Math.floor(Math.random() * paribasan_array.length)]
-  return '"' + moratmarit.paribasan.trim() + '" - ' + moratmarit.bahasa
+  return '"' + moratmarit.paribasa.trim() + '" - ' + moratmarit.bahasa
 }
 
 module.exports = new Paribasan()
