@@ -24,5 +24,8 @@
   "bin": {
     "paribasa": "./bin/paribasa"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "search-index": "^0.6.14"
+  }
 }
