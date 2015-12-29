@@ -1,3 +1,16 @@
 #!/usr/bin/env node
 'use strict'
-console.log(require('../index.js').get())
+
+const paribasan = require('../index.js')
+
+if (process.argv[2] === 'search') {
+  paribasan.search(process.argv[3]).then((searchResult) => {
+    console.log(searchResult)
+  })
+} else if (process.argv[2] === 'init') {
+  paribasan.indexing().then((status) => {
+    console.log('Indexing ok')
+  })
+} else {
+  console.log(paribasan.get())
+}
