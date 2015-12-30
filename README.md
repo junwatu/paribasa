@@ -28,8 +28,6 @@ $ paribasa search wani
 
 ```
 var paribasa = require('paribasa')
-// initialize indexing
-paribasa.init()
 // random output
 console.log(paribasa.get())
 ```
