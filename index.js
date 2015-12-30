@@ -1,6 +1,10 @@
 'use strict'
 
-const si = require('search-index')()
+const os = require('os')
+const path = require('path')
+const tmp = os.tmpdir()
+const si = require('search-index')({indexPath: path.join(tmp, 'paribasa_index')})
+
 let paribasan_jawa = require('./paribasa.json')
 
 function Paribasan () {
@@ -10,7 +14,7 @@ function Paribasan () {
 Paribasan.prototype.indexing = () => {
   let paribasan_jawa_array = Paribasan._toArray(paribasan_jawa)
   return new Promise((resolve, reject) => {
-    si.add(paribasan_jawa_array, function (err) {
+    si.add(paribasan_jawa_array, (err) => {
       err ? reject(err) : resolve(true)
     })
   })
