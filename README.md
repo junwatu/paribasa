@@ -3,7 +3,9 @@
 Paribasa is, you can call it as Javanese quotes. This module can be use as CLI or import the library to your application.
 
 ##CLI
+
 Randomize Paribasa
+
 ```
 $ paribasa
 "Ojo mangro mundak kendo" -  Jangan berfikir mendua agar tidak luntur niat dan semangat.
@@ -34,7 +36,6 @@ console.log(paribasa.get())
 
 ---
 
-#License 
+##License 
 
 MIT License
-
