@@ -21,7 +21,12 @@ Paribasan.prototype.search = (q) => {
   kata.query = {'*': [q]}
   return new Promise((resolve, reject) => {
     si.search(kata, (err, searchResult) => {
-      err ? reject(err) : resolve(searchResult)
+      let hits = searchResult.hits
+      let search_array = []
+      hits.map((val) => {
+        search_array.push(`${val.document.paribasa} - ${val.document.bahasa}`)
+      })
+      err ? reject(err) : resolve(search_array)
     })
   })
 }
