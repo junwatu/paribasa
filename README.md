@@ -22,7 +22,7 @@ $ paribasa
 Nggawe alat iki awakmu yo iso nggoleki paribasa tekok kata, contone
 
 ```
-$ paribasa search wani
+$ paribasa search waton
 1. Kebo lumumpat ing palang - Ngadili prakara ora nganggo waton
 2. Sapa sira sapa ingsun - Aja waton ngguroni utawa mréntah wong liya
 3. Alon-alon waton kelakon - Aja kesusu, ananging ajeg garap apa kang dadi tanggung jawabé
