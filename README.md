@@ -1,5 +1,8 @@
 #Paribasa
 
+> This readme is written in javanese language, for english please read in README_EN.md. 
+> Thanks
+
 Aplikasi iki di gawe mbantu ngilingake paribasa jawa seng jumlae wuakeh.
 
 
