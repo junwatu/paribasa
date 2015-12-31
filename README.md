@@ -10,7 +10,7 @@ Install aplikasi Paribasa iki disek nang komputermu (dianggep sakdurunge ndek ko
 ```
 # npm install -g paribasa
 
-``
+```
 terus supoyo salah siji paribasa iso metu ndek tampilan terminal misale lek awakmu nggawe OS Linux,
 
 ```
@@ -40,5 +40,3 @@ console.log(paribasa.get())
 ##License 
 
 MIT License
-
-
