@@ -1,0 +1,958 @@
+{
+    "0": {
+        "paribasa": "Adhang-adhang tetesé embun",
+        "jawa": "Njagakaké barang mung trima saolèh-olèhé"
+    },
+    "1": {
+        "paribasa": "Adigang, adigung, adiguna",
+        "jawa": "Aja ngandhelaké kaluwihané dhéwé waé"
+    },
+    "2": {
+        "paribasa": "Agama ageming aji",
+        "jawa": "Agama dadi panuntun tingkah laku lan bisa ngatonaké jatining dhiri"
+    },
+    "3": {
+        "paribasa": "Aja dumèh",
+        "jawa": "Aja ngagungaké jabatan, kasudibyan, utawa kalungguhané"
+    },
+    "4": {
+        "paribasa": "Aja golèk wah, mengko dadi owah",
+        "jawa": "Aja mburu marang pandelenganing liyan utawa tumandang kang mung golèk pangaleman"
+    },
+    "5": {
+        "paribasa": "Aji godhong garing",
+        "jawa": "Wis ora ana ajiné babar pisan"
+    },
+    "6": {
+        "paribasa": "Ajining dhiri dumunung ana ing lathi, ajining raga ana ing busana",
+        "jawa": "Aji pamulyaning (kakurmataning) wong ana ing tutur pangucapé"
+    },
+    "7": {
+        "paribasa": "Alon-alon waton kelakon",
+        "jawa": "Aja kesusu, ananging ajeg garap apa kang dadi tanggung jawabé"
+    },
+    "8": {
+        "paribasa": "Ambeg parama arta",
+        "jawa": "Ndhisikaké tugas kawajiban sing utama"
+    },
+    "9": {
+        "paribasa": "Ana catur mungkur",
+        "jawa": "Ora gelem ngrungokaké rerasan kang ora becik"
+    },
+    "10": {
+        "paribasa": "Ana dhaulaté ora ana begjané",
+        "jawa": "Wis arep nemu kabegjan, nanging ora sida"
+    },
+    "11": {
+        "paribasa": "Anak polah bapak kepradah",
+        "jawa": "Kalakoné anak iku apa waé sing nanggung wong tuwané"
+    },
+    "12": {
+        "paribasa": "Angon mangsa",
+        "jawa": "Golèk wektu kang prayoga kanggo tumindak"
+    },
+    "13": {
+        "paribasa": "Angon ulat ngumbar tangan",
+        "jawa": "Nyawang kahanan jalaran arep nyolong utawa tindak culika"
+    },
+    "14": {
+        "paribasa": "Asu belang kalung wang",
+        "jawa": "Wong asor nanging sugih"
+    },
+    "15": {
+        "paribasa": "Asu gedhé menang kerahé",
+        "jawa": "Wong gedhé lan nduwé panguwasa menang kuwasané"
+    },
+    "16": {
+        "paribasa": "Asu marani gepuk",
+        "jawa": "Marani bebaya"
+    },
+    "17": {
+        "paribasa": "Asu rebutan balung",
+        "jawa": "Rebutan barang kang sepélé"
+    },
+    "18": {
+        "paribasa": "Ati bengkong oleh oncong",
+        "jawa": "Wong sing nduwé niyat ala olèh dalan"
+    },
+    "19": {
+        "paribasa": "Baladéwa ilang gapitéĪ",
+        "jawa": "Wong kang ilang kaluhurané"
+    },
+    "20": {
+        "paribasa": "Banyu pinerang",
+        "jawa": "Pasulayané sedulur mesthi énggal pulihé"
+    },
+    "21": {
+        "paribasa": "Bathang lelaku",
+        "jawa": "Lelungan ngliwati panggonan sing mbebayani"
+    },
+    "22": {
+        "paribasa": "Bathok bolu isi madu",
+        "jawa": "Wong asor nanging sugih kapinteran"
+    },
+    "23": {
+        "paribasa": "Becik katitik, ala katara",
+        "jawa": "Tumandang apa waé mengko bakal bisa mangertèni endi sing becik endi sing ala"
+    },
+    "24": {
+        "paribasa": "Belo melu saton",
+        "jawa": "Wong bisané mung mèlu-mèlu, ora ngerti sing dikarepaké"
+    },
+    "25": {
+        "paribasa": "Bubuk olèh lèng",
+        "jawa": "Wong sing duwé niyat ala olèh dalan"
+    },
+    "26": {
+        "paribasa": "Busuk katekuk, pinter kablinger",
+        "jawa": "Wong bodho lan wong pinter padha-padha nemu cilaka"
+    },
+    "27": {
+        "paribasa": "Canthing jali",
+        "jawa": "Wong kang wis ora bisa diisi menèh pikirané kanggo èlmu"
+    },
+    "28": {
+        "paribasa": "Cathok gawèl",
+        "jawa": "Ora diajak rembugan, nanging mèlu-mèlu ngrembug"
+    },
+    "29": {
+        "paribasa": "Car-cor kaya kurang janganan",
+        "jawa": "Ngomong ceplas-ceplos ora dipikir dhisik"
+    },
+    "30": {
+        "paribasa": "Cecak nguntal cagak",
+        "jawa": "Duwé kekarepan sing mokal bisa klakon"
+    },
+    "31": {
+        "paribasa": "Cecak nguntal empyak",
+        "jawa": "Gegayuhan kang ora timbang karo kakuwatané"
+    },
+    "32": {
+        "paribasa": "Aja cedhak kebo gupak",
+        "jawa": "Pawongan kudu bisa wicaksana anggoné kakancan"
+    },
+    "33": {
+        "paribasa": "Cincing-cincing meksa klebus",
+        "jawa": "Karepé ngirid nanging malah entèk akèh"
+    },
+    "34": {
+        "paribasa": "Criwis cawis",
+        "jawa": "Tansah mbantah préntah nanging sumadhiya nindhakaké"
+    },
+    "35": {
+        "paribasa": "Dahwèn ati opèn",
+        "jawa": "Nacad ananging arep dimelik dhéwé"
+    },
+    "36": {
+        "paribasa": "Datan sisip salugut kolang-kaling pinara sasra",
+        "jawa": "Ora ana bédané babar pisan"
+    },
+    "37": {
+        "paribasa": "Dhemit ora ndulit, sétan ora doyan",
+        "jawa": "Tansah ginanjar slamet, ora ana sing ngribedi"
+    },
+    "38": {
+        "paribasa": "Désa mawa cara nagara mawa tata",
+        "jawa": "Saben panggonan duwé cara dhéwé-dhéwé"
+    },
+    "39": {
+        "paribasa": "Diwehi ati ngrogoh rempela",
+        "jawa": "Nyuwun wis diparingi sithik, nyuwun sing akèh"
+    },
+    "40": {
+        "paribasa": "Dom sumuruping banyu",
+        "jawa": "Laku samar utawa meneng-menengan"
+    },
+    "41": {
+        "paribasa": "Dudu sanak dudu kadang, yen mati melu kelangan",
+        "jawa": "Sanajan wong liya yèn ana ora kapénaké mèlu ngrasakaké"
+    },
+    "42": {
+        "paribasa": "Didhadunga medhot, dipalangana mlumpat",
+        "jawa": "Padha kethikan, sing siji api-api ora ngerti"
+    },
+    "43": {
+        "paribasa": "Durung pecus keselak besus",
+        "jawa": "Durung sembada wis kapéngin sing ora-ora"
+    },
+    "44": {
+        "paribasa": "Éman éman ora kaduman",
+        "jawa": "Karepé ngéman nanging malah ora kaduman dhéwé"
+    },
+    "45": {
+        "paribasa": "Emban cindhé emban siladan",
+        "jawa": "Siji lan sijiné ora padha pangrengkuhé (ora adil)"
+    },
+    "46": {
+        "paribasa": "Embat-embat celarat",
+        "jawa": "Nyambut gawé klawan ngati-ati banget"
+    },
+    "47": {
+        "paribasa": "Emprit abuntut bedhug",
+        "jawa": "Prakara sing sepélé dadi gedhé"
+    },
+    "48": {
+        "paribasa": "Endhas gundhul dikepeti",
+        "jawa": "Wis kapénak ditambahi luwih kapénak manèh"
+    },
+    "49": {
+        "paribasa": "Enggon welut didoli udhet",
+        "jawa": "Panggoné wong pinter dipamèri kapinteran sing ora sapiraa"
+    },
+    "50": {
+        "paribasa": "Entèk jaraké",
+        "jawa": "Wis entèk kasugihané"
+    },
+    "51": {
+        "paribasa": "Ésuk dhelé soré témpé",
+        "jawa": "Méncla- ménclé"
+    },
+    "52": {
+        "paribasa": "Gagak nganggo laring merak",
+        "jawa": "Wong cilik tumindak kaya wong gedhé"
+    },
+    "53": {
+        "paribasa": "Gajah alingan suket teki",
+        "jawa": "Lair lan batin ora padha, mesthi bakal katara"
+    },
+    "54": {
+        "paribasa": "Gajah elar",
+        "jawa": "Sarwa gedhé lan dhuwur kakarepané"
+    },
+    "55": {
+        "paribasa": "Garang garing",
+        "jawa": "Wong sumugih nanging sabeneré kakurangan"
+    },
+    "56": {
+        "paribasa": "Gupak puluté ora mangan nangkané",
+        "jawa": "Mèlu rekasa nanging ora mèlu kepénak"
+    },
+    "57": {
+        "paribasa": "Gegedhèn empyak kurang cagak",
+        "jawa": "Kagedhèn kakarepan nanging ora kuwawa nandangi"
+    },
+    "58": {
+        "paribasa": "Golek uceng kèlangan dheleg",
+        "jawa": "Kapingin antuk sing luwih aji malah kélangan apa sing wis diduwèni"
+    },
+    "59": {
+        "paribasa": "Harda walépa",
+        "jawa": "Tumindak sing ora patut, ditakoni malah ganti takon"
+    },
+    "60": {
+        "paribasa": "Hasta kukila warsa",
+        "jawa": "Pralambang saka wong urip nalika wis tuwa umuré"
+    },
+    "61": {
+        "paribasa": "Hèr gung raja manah anung",
+        "jawa": "Wong sugih, pangkaté dhuwur, lembah manah, lan ngurmati sapadha-padha"
+    },
+    "62": {
+        "paribasa": "Hèru cakra",
+        "jawa": "Sang raja sing dipercaya ngeculaké rakyaté saka kasangsaran"
+    },
+    "63": {
+        "paribasa": "Holopis kuntul baris",
+        "jawa": "Nindakake pagawéyan bebarengan"
+    },
+    "64": {
+        "paribasa": "Hyang kalingga surya",
+        "jawa": "Panuntun gedhé sing bisa ngayomi lan misuwur ing bebrayan"
+    },
+    "65": {
+        "paribasa": "Hyang Sukma Adiluwih",
+        "jawa": "Kabèh sing ana ing donya iki wis dadi karsané Gusti"
+    },
+    "66": {
+        "paribasa": "Idu didilat manèh",
+        "jawa": "Narik manèh ukara-ukara sing wis diujaraké"
+    },
+    "67": {
+        "paribasa": "Idu geni",
+        "jawa": "Apa sing diujaraké mesthi kedadèn"
+    },
+    "68": {
+        "paribasa": "Ilang jaraké kari jailé",
+        "jawa": "Sipat wicaksanané ilang, kari sipat alané"
+    },
+    "69": {
+        "paribasa": "Ilang leginé kari ampasé",
+        "jawa": "Wong sing wis ora bisa mènèhi paédah, dilalèkaké jasané"
+    },
+    "70": {
+        "paribasa": "Ilang-ilangan endhog siji",
+        "jawa": "Wong tuwa sing wis ora gelem ndhaku anak amarga duraka"
+    },
+    "71": {
+        "paribasa": "Ilu-ilu kapiluyu",
+        "jawa": "Wong sing senengé mung mèlu-mèlu"
+    },
+    "72": {
+        "paribasa": "Ing ngarsa sung tuladha, ing madya mangun karsa, tut wuri andayani",
+        "jawa": "Pamimpin nalika ana ing ngarep kudu bisa dadi patuladan, nalika ana ing tengah bisa nggatokaké rakyaté, lan nalika ing buri bisa mènèhi panyengkuyung"
+    },
+    "73": {
+        "paribasa": "Ing sandhi praléna",
+        "jawa": "Wong sing tumindak wewadi lan grusa-grusu saéngga gawe cilaka wong liya"
+    },
+    "74": {
+        "paribasa": "Iwak lumebu wuwu",
+        "jawa": "Wong sing gampang kapusan amarga bodho"
+    },
+    "75": {
+        "paribasa": "Jail mringkil",
+        "jawa": "Wong sing tumindak ala ora patut didadèkaké kanca"
+    },
+    "76": {
+        "paribasa": "Jajah désa milang kori",
+        "jawa": "Wong sing seneng lalungan lan nyawangi akèh papan panggonan"
+    },
+    "77": {
+        "paribasa": "Jalma angkara mati murka",
+        "jawa": "Kangèlan amarga nesuné dhéwé"
+    },
+    "78": {
+        "paribasa": "Jalma limpad saprapat tamat",
+        "jawa": "Wong kang duwé daya linuwih bisa weruh sadurunge winarah"
+    },
+    "79": {
+        "paribasa": "Jamur ing mangsa katiga",
+        "jawa": "Kahanan sing arang kadadèn"
+    },
+    "80": {
+        "paribasa": "Jaran karubuhan empyak",
+        "jawa": "Kapok banget"
+    },
+    "81": {
+        "paribasa": "Jarit lawas ing sampiran",
+        "jawa": "Duwé kalantipan nanging ora digunakaké"
+    },
+    "82": {
+        "paribasa": "Jer basuki mawa béya",
+        "jawa": "Samubarang gegayuhan mbutuhaké wragat"
+    },
+    "83": {
+        "paribasa": "Jati katlusuban luyung",
+        "jawa": "Wong-wong apik sing kalebon wong-wong ala sing banjur ngrusak"
+    },
+    "84": {
+        "paribasa": "Jiniwit katut",
+        "jawa": "Yèn sedulur sedhih mèlu ngrasa sedhih"
+    },
+    "85": {
+        "paribasa": "Jujul wuwul",
+        "jawa": "Prakara sing tambah angèl"
+    },
+    "86": {
+        "paribasa": "Jurang growah ora mili",
+        "jawa": "Wong sing mesthi mblénjani janji"
+    },
+    "87": {
+        "paribasa": "Kacang mangsa ninggal lanjaran",
+        "jawa": "Sipaté anak ora bakal béda adoh karo sipaté wong tuwané"
+    },
+    "88": {
+        "paribasa": "Kadang konang",
+        "jawa": "Ngakoni sadulur mung karo sing sugih-sugih"
+    },
+    "89": {
+        "paribasa": "Kalah cacak menang cacak",
+        "jawa": "Samubarang pagawéan luwih becik dicoba dhisik bisa lan orané"
+    },
+    "90": {
+        "paribasa": "Kandhang langit kemul méga",
+        "jawa": "Wong kang ora duwé omah"
+    },
+    "91": {
+        "paribasa": "Katon koyo cempaka sawakul",
+        "jawa": "Tansah disenengi wong akèh"
+    },
+    "92": {
+        "paribasa": "Kaya banyu karo lenga",
+        "jawa": "Wong kang ora bisa rukun"
+    },
+    "93": {
+        "paribasa": "Kakèhan gludhug kurang udan",
+        "jawa": "Akèh omongé ora ana nyatané"
+    },
+    "94": {
+        "paribasa": "Kabanjiran sagara madu",
+        "jawa": "Nemu kabegjan kang gedhé banget"
+    },
+    "95": {
+        "paribasa": "Kebat kliwat gancang pincang",
+        "jawa": "Tumindak sarwa kasusu asilé mesthi ora kabeneran"
+    },
+    "96": {
+        "paribasa": "Kebo bulé mati sétra",
+        "jawa": "Wong pinter nanging ora ana sing merlokaké"
+    },
+    "97": {
+        "paribasa": "Kebo ilang tombok kandhang",
+        "jawa": "Wis kilangan, ngetokaké wragat manèh kanggo nggolèki, malah ora katemu pisan"
+    },
+    "98": {
+        "paribasa": "Kebo kabotan sungu",
+        "jawa": "Rekasa marga kakèhan anak"
+    },
+    "99": {
+        "paribasa": "Kebo lumumpat ing palang",
+        "jawa": "Ngadili prakara ora nganggo waton"
+    },
+    "100": {
+        "paribasa": "Kebo mulih menyang kandhangé",
+        "jawa": "Wong lunga adoh bali menyang omah manèh"
+    },
+    "101": {
+        "paribasa": "Kebo nusu gudel",
+        "jawa": "Wong tuwa jaluk wuruk wong enom"
+    },
+    "102": {
+        "paribasa": "Kegedhen empyak kurang cagak",
+        "jawa": "Kagedhèn kakarepan nanging kurang sembada"
+    },
+    "103": {
+        "paribasa": "Kajugrugan gunung menyan",
+        "jawa": "Oleh kabegjan kang gedhé banget"
+    },
+    "104": {
+        "paribasa": "Kakudhung welulang macan",
+        "jawa": "Ngapusi nganggo jeneng wong kang diwedèni"
+    },
+    "105": {
+        "paribasa": "Kalacak kapathak",
+        "jawa": "Ora bisa mungkir, jalaran wis kabuktèn"
+    },
+    "106": {
+        "paribasa": "Kena iwaké aja nganti butheg banyuné",
+        "jawa": "Kang dikarepaké kalakon naning aja nganti gawé rusak"
+    },
+    "107": {
+        "paribasa": "Kencana katon wingka",
+        "jawa": "Sanajan apik nanging ora disenengi"
+    },
+    "108": {
+        "paribasa": "Kendel ngringkel",
+        "jawa": "Ngaku kendel tur pinter jebu1 jirih tur bodho"
+    },
+    "109": {
+        "paribasa": "Kenès ora ethes",
+        "jawa": "Wong sugih umuk nanging bodho"
+    },
+    "110": {
+        "paribasa": "Keplok ora tombok",
+        "jawa": "Wong senengé maido, ora gelem mélu cawé-cawé"
+    },
+    "111": {
+        "paribasa": "Kéré munggah balé",
+        "jawa": "Batur dipek bojo karo bendaran"
+    },
+    "112": {
+        "paribasa": "Kéré nemoni malem",
+        "jawa": "Wong kang bedhigasan"
+    },
+    "113": {
+        "paribasa": "Kerot ora duwé untu",
+        "jawa": "Duwé kakarepan nanging ora duwé wragat"
+    },
+    "114": {
+        "paribasa": "Karubuhan gunung",
+        "jawa": "Wong nemoni kasusahan kang gedhé banget"
+    },
+    "115": {
+        "paribasa": "Kasandhung ing rata, kabentus ing tawang",
+        "jawa": "Olèh cilaka kang ora dinyana-nyana"
+    },
+    "116": {
+        "paribasa": "Katula-tula katali",
+        "jawa": "Wong kang tansah nandhang sengsara"
+    },
+    "117": {
+        "paribasa": "Kethèk saranggon",
+        "jawa": "Kumpulan wong kang tindak ala"
+    },
+    "118": {
+        "paribasa": "Kléyang kabur kanginan",
+        "jawa": "Lunga ora karuwan jujugé"
+    },
+    "119": {
+        "paribasa": "Klenthing wadah masin",
+        "jawa": "Angèl ninggalaké pakulinan tumindak ala"
+    },
+    "120": {
+        "paribasa": "Kongsi jambul wanèn",
+        "jawa": "Nganti tumekan tuwa banget"
+    },
+    "121": {
+        "paribasa": "Krokot ing galeng",
+        "jawa": "Wong kang mlarat banget"
+    },
+    "122": {
+        "paribasa": "Kriwikan dadi grojogan",
+        "jawa": "Prakara kang mauné cilik dadi gedhé"
+    },
+    "123": {
+        "paribasa": "Kumenthus ora pecus",
+        "jawa": "Seneng umuk nanging ora sembada"
+    },
+    "124": {
+        "paribasa": "Kurung munggah lumbung",
+        "jawa": "Wong cilik didadèkaké wong gedhé"
+    },
+    "125": {
+        "paribasa": "Kuthuk nggèndhong kemiri",
+        "jawa": "Nganggo kang sarwa apik, liwat dalan kang mbebayani"
+    },
+    "126": {
+        "paribasa": "Kutuk rnarani sunduk",
+        "jawa": "Njarag marani bebaya"
+    },
+    "127": {
+        "paribasa": "Kuncung nganti tuméka gelung",
+        "jawa": "Suwé banget anggoné entèni"
+    },
+    "128": {
+        "paribasa": "Lali karo baruté",
+        "jawa": ""
+    },
+    "129": {
+        "paribasa": "Ladhak kacocog eri",
+        "jawa": ""
+    },
+    "130": {
+        "paribasa": "Lahang karoban manis",
+        "jawa": "Bagus/ayu rupané tur luhur bebudèné"
+    },
+    "131": {
+        "paribasa": "Lambé satumang kari samerang",
+        "jawa": "Dituturi bola-bali meksa ora digugu"
+    },
+    "132": {
+        "paribasa": "Lanang kemangi",
+        "jawa": "Wong lanang kang jirih"
+    },
+    "133": {
+        "paribasa": "Legan golèk momongan",
+        "jawa": ""
+    },
+    "134": {
+        "paribasa": "Lumpuh ngideri jagad",
+        "jawa": "Duwé kakarepan kang mokal katurutan"
+    },
+    "135": {
+        "paribasa": "Maju tatu mundur ajur",
+        "jawa": "Prakara kang sarwa pakéwuh"
+    },
+    "136": {
+        "paribasa": "Matang tuna numbak luput",
+        "jawa": "Tansah luput kabèh panggayuhané"
+    },
+    "137": {
+        "paribasa": "Manuk emprit abuntut bedhug",
+        "jawa": "Wong kang senéng gawé prakara alit digedhé-gedhékaké"
+    },
+    "138": {
+        "paribasa": "Meneng widara uleran",
+        "jawa": "Katon anteng nanging sajatiné ala atiné"
+    },
+    "139": {
+        "paribasa": "Menthung koja kena sembaginé",
+        "jawa": "Rumangsané ngapusi, nanging sajatiné malah kena apus"
+    },
+    "140": {
+        "paribasa": "Merangi tatal",
+        "jawa": "Mbalèni pakaryan kang wus rampung"
+    },
+    "141": {
+        "paribasa": "Melok nanging aja nyolok",
+        "jawa": "Wong urip aja nganti seneng pamèr"
+    },
+    "142": {
+        "paribasa": "Mikul dhuwur, mendhem jero",
+        "jawa": "Bisa njunjung drajaté wong tuwa"
+    },
+    "143": {
+        "paribasa": "Mrojol selaning garu",
+        "jawa": "Linuwih (pinunjul ing kawruh) lan langka sing madhani"
+    },
+    "144": {
+        "paribasa": "Mulat sarira angrasa wani, rumangsa mèlu andarbèni, wajib mèlu angrukebi",
+        "jawa": "Wani mawas dhiri, rumangsa mèlu nduwé lan njaga apa kang ana"
+    },
+    "145": {
+        "paribasa": "Nabok nyilih tangan",
+        "jawa": "Tumindak ala kanthi kongkon wong liya"
+    },
+    "146": {
+        "paribasa": "Nawu lintang",
+        "jawa": "Tumindak kang angèl dilakoni (tangèh lamun)."
+    },
+    "147": {
+        "paribasa": "Nagara mawa tata, désa mawa cara",
+        "jawa": "Sesami manungsa ingkang gesang wonten ing pundi kémawon saged ngurmati dhumateng martabat tiyang sanesipun"
+    },
+    "148": {
+        "paribasa": "Ngagar metu kawul",
+        "jawa": "Ngojok-ojoki supaya dadi pasulayan"
+    },
+    "149": {
+        "paribasa": "Ngemut legining gula",
+        "jawa": "Bareng karasa kapénak, lali asalé"
+    },
+    "150": {
+        "paribasa": "Nglungguhi klasa gumelar",
+        "jawa": "Wong asor bisa ngalahaké wong luhur (gedhé) nganti gawé kagèt wong akèh"
+    },
+    "151": {
+        "paribasa": "Nguyahi banyu segara",
+        "jawa": "Nglakokaké barang sing ora ana gunané"
+    },
+    "152": {
+        "paribasa": "Ngrusak pager ayu",
+        "jawa": "Ngrebut bojoné wong"
+    },
+    "153": {
+        "paribasa": "Ngundhuh wohing pakarti",
+        "jawa": "Wong bakal nampa wales apa kang ditindakaké"
+    },
+    "154": {
+        "paribasa": "Nguthik-uthik macan dhédhé",
+        "jawa": "Njarag wong kang wis lilih nepsuné"
+    },
+    "155": {
+        "paribasa": "Nucuk ngiberaké",
+        "jawa": "Wis disuguh, mulihé nyangking suguhan (brekat)"
+    },
+    "156": {
+        "paribasa": "Nututi layangan pedhot",
+        "jawa": "Ngupaya barang sepélé sing wis ilang"
+    },
+    "157": {
+        "paribasa": "Nyangoni kawula minggat",
+        "jawa": "Ndandani barang kang pijer rusak"
+    },
+    "158": {
+        "paribasa": "Nyunggi lumpang kenthèng",
+        "jawa": "Luwih becik rekasa dhisik, ing tembé mburiné bakal kapénak"
+    },
+    "159": {
+        "paribasa": "Obor blarak",
+        "jawa": "Pagawéyan kang mung grengseng sedhela waé"
+    },
+    "160": {
+        "paribasa": "Opor bèbèk mentas awaké dhéwé",
+        "jawa": "Rampung saka rekadayané dhéwé"
+    },
+    "161": {
+        "paribasa": "Ora gonja ora unus",
+        "jawa": "Wong sing ala rupané, atiné uga ala"
+    },
+    "162": {
+        "paribasa": "Ora mambu enthong irus",
+        "jawa": "Dudu sanak dudu kadang"
+    },
+    "163": {
+        "paribasa": "Ora ana banyu mili mendhuwur",
+        "jawa": "Wataké anak adaté niru wong tuwané"
+    },
+    "164": {
+        "paribasa": "Ora ana kukus tanpa geni",
+        "jawa": "Ora ana tundhon tanpa ana larahé"
+    },
+    "165": {
+        "paribasa": "Ora tembung ora tawung",
+        "jawa": "Njupuk barangé liyan tanpa kandha dhisik"
+    },
+    "166": {
+        "paribasa": "Ora uwur ora sembur",
+        "jawa": "Ora gelem cawé-cawé babar pisan"
+    },
+    "167": {
+        "paribasa": "Othak athik gathuk",
+        "jawa": "Nggothak-nggathukaké kahanan kang dumadi saéngga cocog, kamangka durung karuwan ana hubungané"
+    },
+    "168": {
+        "paribasa": "Othak athik didudut angel",
+        "jawa": "Rembugé sajak kapénak bareng ditandangi jebulé angèl"
+    },
+    "169": {
+        "paribasa": "Pakulinan iku kodrat sing kapindho",
+        "jawa": "Yèn nglakokaké barang tartamtu ora usah dipikir manèh"
+    },
+    "170": {
+        "paribasa": "Palang mangan tanduran",
+        "jawa": "Wong sing diprecaya malah ngrusak"
+    },
+    "171": {
+        "paribasa": "Pitik trondhol diumbar ing padaringan",
+        "jawa": "Wong ala dipasrahi tunggu barang aji"
+    },
+    "172": {
+        "paribasa": "Pupur sadurungé benjut",
+        "jawa": "Ngati-ati mumpung durung cilaka"
+    },
+    "173": {
+        "paribasa": "Rawé-rawé rantas malang-malang putung",
+        "jawa": "Apa-apa sing ngalangi ing patujon kudu dibabad entèk"
+    },
+    "174": {
+        "paribasa": "Rebut balung tanpa isi",
+        "jawa": "Regejegan perkara kang sepélé"
+    },
+    "175": {
+        "paribasa": "Rindhik asu digitik",
+        "jawa": "Dikongkon nglakoni gawéan sing cocog karo karepé"
+    },
+    "176": {
+        "paribasa": "Sabaya pati sabaya mukti",
+        "jawa": "Rukun nganti tekaning pati"
+    },
+    "177": {
+        "paribasa": "Sadumuk bathuk sanyari bumi",
+        "jawa": "Ajining dhiri lan panggonan bakal dibéla mati-matian"
+    },
+    "178": {
+        "paribasa": "Sandhing kebo gupak",
+        "jawa": ""
+    },
+    "179": {
+        "paribasa": "Sapa gawé nganggo",
+        "jawa": "Samubarang bakal mènèhi pituwas marang sing nglakoni"
+    },
+    "180": {
+        "paribasa": "Sapa sira sapa ingsun",
+        "jawa": "Aja waton ngguroni utawa mréntah wong liya"
+    },
+    "181": {
+        "paribasa": "Sapa sing salah bakal sèlèh",
+        "jawa": "Sapa sing salah bakal konangan"
+    },
+    "182": {
+        "paribasa": "Sadhakep awé-awé",
+        "jawa": "Marèni tumindak ala nanging isih kapingin tumindak manèh"
+    },
+    "183": {
+        "paribasa": "Sembur sembur adus siram siram bayem",
+        "jawa": "Bisa kaleksanan jalaran pandungané wong akèh"
+    },
+    "184": {
+        "paribasa": "Sepi ing pamrih ramé ing gawé",
+        "jawa": "Seneng tumindak becik marang wong liya tanpa ngarep-arep piwales"
+    },
+    "185": {
+        "paribasa": "Sing bisa rumangsa aja rumangsa bisa",
+        "jawa": ""
+    },
+    "186": {
+        "paribasa": "Sugih tanpa bandha, digdaya tanpa aji, nglurug tanpa bala, menang tanpa ngasoraké",
+        "jawa": "Manungsa kang sugih ing budi"
+    },
+    "187": {
+        "paribasa": "Sumur golèk timba",
+        "jawa": ""
+    },
+    "188": {
+        "paribasa": "Téga larané ora téga patiné",
+        "jawa": "Téga nglarani, nanging ora téga yèn nganti blai (mati)"
+    },
+    "189": {
+        "paribasa": "Tembang rawat-rawat ujaré bakul sinamberawa",
+        "jawa": "Kabar kang durung mesthi bener lan luputé"
+    },
+    "190": {
+        "paribasa": "Timun jinara",
+        "jawa": "Prakara gampang banget"
+    },
+    "191": {
+        "paribasa": "Timun mungsuh durèn",
+        "jawa": "Wong cilik mungsuh panguwasa"
+    },
+    "192": {
+        "paribasa": "Timun wungkuk jaga imbuh",
+        "jawa": "Kanggo jagan yèn ana kurangé"
+    },
+    "193": {
+        "paribasa": "Tinggal glanggang colong playu",
+        "jawa": "Kaplayu saka tanggung jawab"
+    },
+    "194": {
+        "paribasa": "Tumbak cucukan",
+        "jawa": "Wong sing seneng wadulan"
+    },
+    "195": {
+        "paribasa": "Tumbu olèh tutup",
+        "jawa": "Wong kakancan sing cocok banget"
+    },
+    "196": {
+        "paribasa": "Tuna sathak bathi sanak",
+        "jawa": "Tuna bandha nanging bathi olèh sadulur"
+    },
+    "197": {
+        "paribasa": "Tunggak jarak mrajak tunggak jati mati",
+        "jawa": "Turunané wong cilik dadi wong gedhé, turunané wong gedhé dadi wong cilik"
+    },
+    "198": {
+        "paribasa": "Tulung menthung",
+        "jawa": "Ditulungi malah ngrusuhi."
+    },
+    "199": {
+        "paribasa": "Ubaya saksi",
+        "jawa": "Wong kang janji sumedya mènèhi kakucah marang saksi"
+    },
+    "200": {
+        "paribasa": "Ubut saksi",
+        "jawa": "Wong prekaran tanpa nampik saksi"
+    },
+    "201": {
+        "paribasa": "Udan gemblong omahé wong, udan gaplèk omahé dhéwé",
+        "jawa": "Saapik-apiké omahé wong liya isih luwih becik yèn manggon ing omahé dhéwé"
+    },
+    "202": {
+        "paribasa": "Ulah semu",
+        "jawa": "Nandukaké pratingkah sing sinamon ing pasemon praèn"
+    },
+    "203": {
+        "paribasa": "Ujaring wong pepasaran",
+        "jawa": "Kabar sing ora genah asal usulé karo parané"
+    },
+    "204": {
+        "paribasa": "Ula marani gebug",
+        "jawa": "Nemaha marang kacilakan"
+    },
+    "205": {
+        "paribasa": "Ulangan cumbon",
+        "jawa": ""
+    },
+    "206": {
+        "paribasa": "Ulat madhep ati arép",
+        "jawa": ""
+    },
+    "207": {
+        "paribasa": "Ula-ula dawa",
+        "jawa": ""
+    },
+    "208": {
+        "paribasa": "Undhaking pawarta sudaning kiriman",
+        "jawa": ""
+    },
+    "209": {
+        "paribasa": "Undhaking pawarta sudaning titipan",
+        "jawa": ""
+    },
+    "210": {
+        "paribasa": "Undha usuk",
+        "jawa": ""
+    },
+    "211": {
+        "paribasa": "Ungak-ungak pager arang",
+        "jawa": "Ngisin-ngisinaké pokal gawéné"
+    },
+    "212": {
+        "paribasa": "Unjal angempan",
+        "jawa": ""
+    },
+    "213": {
+        "paribasa": "Upaya prabéda",
+        "jawa": ""
+    },
+    "214": {
+        "paribasa": "Upaya saksi",
+        "jawa": ""
+    },
+    "215": {
+        "paribasa": "Urik klelet candhu tiké",
+        "jawa": ""
+    },
+    "216": {
+        "paribasa": "Urun rembug",
+        "jawa": ""
+    },
+    "217": {
+        "paribasa": "Urun wudhu",
+        "jawa": ""
+    },
+    "218": {
+        "paribasa": "Usung-usung lumbung",
+        "jawa": ""
+    },
+    "219": {
+        "paribasa": "Utangé nurut wulu",
+        "jawa": "Wong sing utangé akèh banget"
+    },
+    "220": {
+        "paribasa": "Utang lara nyaur lara utang pati nyaur pati",
+        "jawa": "Wong sing arep mbales sakemengé"
+    },
+    "221": {
+        "paribasa": "Utang nyaur nyilih ambalèkaké",
+        "jawa": "Wong iku kudu netepi kawajibané"
+    },
+    "222": {
+        "paribasa": "Uwot gedebog",
+        "jawa": "Wong sing ngundani kasaguhané awaké dhéwé"
+    },
+    "223": {
+        "paribasa": "Uyah kacemplung segara",
+        "jawa": "Mènèhi wong sing wis sugih"
+    },
+    "224": {
+        "paribasa": "Wastra bedhah kayu pokah",
+        "jawa": "Tiyang nandhang tatu, babak kulité, putung balungé (wong ketula-tula uripé)"
+    },
+    "225": {
+        "paribasa": "Watra lungsèt ing sampiran",
+        "jawa": "Tiyang pintèr ora diguroni, Tiyang sanés ingkang ala dipanuti nganti tuwa"
+    },
+    "226": {
+        "paribasa": "Wedi rai wani silit",
+        "jawa": "Waniné mung saka mburi, wedi yèn adhep-adhepan"
+    },
+    "227": {
+        "paribasa": "Wédhus diumbar ing pakacangan",
+        "jawa": "Tiyang mlarat dipércaya njaga barang pakarèmané"
+    },
+    "228": {
+        "paribasa": "Wèlsa tanpa alis",
+        "jawa": "Badhé tetulung (mélasi) wong liya nanging malah dadi bilainé"
+    },
+    "229": {
+        "paribasa": "Wéruh ing grubyug, ora wéruh ing rémbug",
+        "jawa": "Melu-melu tumindak nanging ora ngérti kang dikarepaké"
+    },
+    "230": {
+        "paribasa": "Wis kebak sundukané",
+        "jawa": "Wong sing akèh banget kaluputané"
+    },
+    "231": {
+        "paribasa": "Witing tresna jalaran saka kulina",
+        "jawa": "Bisa dadi tresna amarga kulina"
+    },
+    "232": {
+        "paribasa": "Wiwit kuncung nganti gelung",
+        "jawa": "Wiwit cilik nganti gedhé"
+    },
+    "233": {
+        "paribasa": "Wong mati ninggal jéneng",
+        "jawa": ""
+    },
+    "234": {
+        "paribasa": "Wong wadon cowek gopél",
+        "jawa": "Drajating wong wadon kang ora pangaji"
+    },
+    "235": {
+        "paribasa": "Yitna yuwana léna kena",
+        "jawa": "Wong sing ngati-ati bakal nemu slamet, sing sembrana bakal nemoni cilaka"
+    },
+    "236": {
+        "paribasa": "Yiyidan mungging rampadan",
+        "jawa": "Biyèné wong durjana saiki dadi wong sing alim"
+    },
+    "237": {
+        "paribasa": "Yoga anyangga yogi",
+        "jawa": "Murid nirokaké piwulangé guru"
+    },
+    "238": {
+        "paribasa": "Yuyu rumpung mbarong rongé",
+        "jawa": "Omahé magrong nanging sajatiné mlarat"
+    }
+}
