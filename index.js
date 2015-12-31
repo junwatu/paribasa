@@ -7,7 +7,7 @@ const tmp = os.tmpdir()
 const indexTmp = path.join(tmp, 'paribasa_index')
 const si = require('search-index')({indexPath: indexTmp})
 
-let paribasan_jawa = require('./paribasa_jawa.json')
+let paribasan_jawa = require('./dat/paribasa_jawa.json')
 
 function Paribasan () {
 }
