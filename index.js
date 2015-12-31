@@ -2,6 +2,7 @@
 
 const os = require('os')
 const path = require('path')
+
 const tmp = os.tmpdir()
 const indexTmp = path.join(tmp, 'paribasa_index')
 const si = require('search-index')({indexPath: indexTmp})
@@ -47,7 +48,7 @@ Paribasan.prototype.search = (q) => {
 Paribasan.prototype.get = () => {
   let paribasan_array = Paribasan._toArray(paribasan_jawa)
   let moratmarit = paribasan_jawa[Math.floor(Math.random() * paribasan_array.length)]
-  return `"${moratmarit.paribasa.trim()}" - ${moratmarit.jawa}`
+  return moratmarit
 }
 
 Paribasan._toArray = (paribasan_object) => {
