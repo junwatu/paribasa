@@ -14,5 +14,6 @@ if (process.argv[2] === 'search') {
     console.log('Indexing ok')
   })
 } else {
-  console.log(paribasan.get())
+  let randParibasan = paribasan.get()
+  console.log(`"${randParibasan.paribasa}" - ${randParibasan.jawa}`)
 }
