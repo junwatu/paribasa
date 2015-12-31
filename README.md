@@ -1,6 +1,6 @@
 #Paribasa
 
-> This readme is written in javanese language, for english please read in README_EN.md. 
+> This readme is written in javanese language, for english please read in [README_EN.md](README_EN.md). 
 > Thanks
 
 Aplikasi iki di gawe mbantu ngilingake paribasa jawa seng jumlae wuakeh.
@@ -39,6 +39,10 @@ var paribasa = require('paribasa')
 // random output
 console.log(paribasa.get())
 ```
+
+Luwih jelase deloken nang berkas API.md tapi jek bahasa inggris. 
+
+Suwun
 
 ##License 
 

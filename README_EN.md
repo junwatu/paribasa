@@ -21,6 +21,7 @@ $ paribasa search wani
 3. Alon-alon waton kelakon - Aja kesusu, ananging ajeg garap apa kang dadi tanggung jawabé
 
 ```
+or you can see API documentaion on [API.md](API.md)
 
 ##Library
 
