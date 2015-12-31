@@ -40,7 +40,7 @@ var paribasa = require('paribasa')
 console.log(paribasa.get())
 ```
 
-Luwih jelase deloken nang berkas API.md tapi jek bahasa inggris. 
+Luwih jelase deloken nang berkas [API.md](API.md) tapi jek bahasa inggris. 
 
 Suwun
 
