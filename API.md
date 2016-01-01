@@ -18,8 +18,8 @@ console.log(paribasa.get())
 
 ##paribasa.indexing()
 
-Indexing data manually. Usually you dont need do this because for the first time use of search, paribasa will automatically index the json data.
+Indexing data manually. Usually you dont need to do this because for the first time use of paribasa search, it will automatically index the json data.
 
 ##paribasa.search(word)
 
-It will return all paribasa that contain the word that you search.
+This method will return all paribasa that contain the search keyword.
