@@ -23,3 +23,6 @@ Indexing data manually. Usually you dont need to do this because for the first t
 ##paribasa.search(word)
 
 This method will return all paribasa that contain the search keyword.
+
+> NOTE: Javanese heavily use accented letter so for the keyword with
+> accented letter such as 'duwé' versus 'duwe' will have different search result 
