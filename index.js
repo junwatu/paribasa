@@ -59,7 +59,9 @@ Paribasan._toArray = (paribasan_object) => {
 
 Paribasan._checkIndexDir = () => {
   return new Promise((resolve, reject) => {
-    si.tellMeAboutMySearchIndex((info) => {
+    si.tellMeAboutMySearchIndex((err, info) => {
+      if (err) throw err;
+      
       if (info.totalDocs === 0) {
         console.log('Initialize indexing...')
         Paribasan.init().then(() => resolve(true))
