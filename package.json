@@ -4,6 +4,7 @@
   "description": "Javanese Quote aka Paribasa",
   "main": "index.js",
   "scripts": {
+    "start": "node ./bin/paribasa",
     "test": "echo \"Error: no test specified\""
   },
   "keywords": [
@@ -29,6 +30,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "search-index": "^0.6.14"
+    "search-index": "^1.0.5"
   }
 }
