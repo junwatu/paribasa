@@ -1,4 +1,4 @@
-#Paribasa
+# Paribasa
 
 > This readme is written in javanese language, for english please read in [README_EN](README_EN.md). 
 > Thanks
@@ -6,7 +6,7 @@
 Aplikasi iki di gawe mbantu ngilingake paribasa jawa seng jumlae wuakeh.
 
 
-##Carane
+## Carane
 
 Install aplikasi Paribasa iki disek nang komputermu (dianggep sakdurunge ndek komputermu kudu wes terinstall Node.js versi 4 menduwur)
 
@@ -31,7 +31,7 @@ $ paribasa search waton
 3. Alon-alon waton kelakon - Aja kesusu, ananging ajeg garap apa kang dadi tanggung jawabé
 
 ```
-##Pustaka
+## Pustaka
 Lek awakmu developer, aplikasi iki iso digawe pisan ndek aplikasimu istilahe **di import**
 
 ```
@@ -44,6 +44,6 @@ Luwih jelase deloken nang berkas [API](API.md) tapi jek bahasa inggris.
 
 Suwun
 
-##License 
+## License 
 
 MIT License
