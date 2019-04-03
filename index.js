@@ -9,8 +9,7 @@ const si = require('search-index')({indexPath: indexTmp})
 
 let paribasan_jawa = require('./dat/paribasa_jawa.json')
 
-function Paribasan () {
-}
+function Paribasan () {}
 
 Paribasan.init = () => {
   let paribasan_jawa_array = Paribasan._toArray(paribasan_jawa)
