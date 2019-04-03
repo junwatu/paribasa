@@ -1,47 +1,41 @@
+/**__JS__ 
+ * Paribasa - Javanese Wisdom and Quote
+ * (c) 2015-2019
+ */
+
 'use strict'
+const info = require('./package.json')
+const paribasan_jawa = require('./dat/paribasa_jawa.json')
+const index = require('flexsearch').create({
+    tokenize: 'forward',
+    encode: 'icase',
+    async: false,
+    worker: false,
+    doc: {
+        id: '_id',
+        field: ['data:paribasa', 'data:jawa']
+    }
+})
 
-const os = require('os')
-const path = require('path')
-
-const tmp = os.tmpdir()
-const indexTmp = path.join(tmp, 'paribasa_index')
-const si = require('search-index')({indexPath: indexTmp})
-
-let paribasan_jawa = require('./dat/paribasa_jawa.json')
-
-function Paribasan () {}
+function Paribasan() { }
 
 Paribasan.init = () => {
-  let paribasan_jawa_array = Paribasan._toArray(paribasan_jawa)
-  return new Promise((resolve, reject) => {
-    si.add(paribasan_jawa_array, (err) => {
-      err ? reject(err) : resolve(true)
+    let paribasan_jawa_array = Paribasan._toArray(paribasan_jawa)
+    paribasan_jawa_array.forEach((el) => {
+        index.add(el)
     })
-  })
-}
-
-Paribasan.prototype.indexing = () => {
-  return new Promise((resolve, reject) => {
-    Paribasan.init().then(status => resolve(status), err => reject(err))
-  })
 }
 
 Paribasan.prototype.search = (q) => {
-  let kata = {}
-  kata.query = {'*': [q]}
-
-  return new Promise((resolve, reject) => {
-    Paribasan._checkIndexDir().then(() => {
-      si.search(kata, (err, searchResult) => {
-        let hits = searchResult.hits
-        let search_array = []
-        hits.map((val) => {
-          search_array.push(`${val.document.paribasa} - ${val.document.jawa}`)
+    Paribasan.init()
+    console.log(`Paribasa ${info.version}`)
+    console.log('')
+    index.search(q, 100, (result) => {
+        console.log(`Hasile: [${result.length}]`)
+        result.map((val, idx) => {
+            console.log(`${idx+1}. ${val.paribasa} - ${val.jawa}`)
         })
-        err ? reject(err) : resolve(search_array)
-      })
     })
-  })
 }
 
 Paribasan.prototype.get = () => {
@@ -51,21 +45,10 @@ Paribasan.prototype.get = () => {
 }
 
 Paribasan._toArray = (paribasan_object) => {
-  return Object.keys(paribasan_object).map((k) => {
-    return paribasan_object[k]
-  })
-}
-
-Paribasan._checkIndexDir = () => {
-  return new Promise((resolve, reject) => {
-    si.tellMeAboutMySearchIndex((info) => {
-      if (info.totalDocs === 0) {
-        console.log('Initialize indexing...')
-        Paribasan.init().then(() => resolve(true))
-      } else {
-        resolve(true)
-      }
-    })
+    let x = 0
+    return Object.keys(paribasan_object).map((k) => {
+      paribasan_object[k]._id = x++
+      return paribasan_object[k]
   })
 }
 
