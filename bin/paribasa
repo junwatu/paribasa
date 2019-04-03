@@ -4,15 +4,7 @@
 const paribasan = require('../index.js')
 
 if (process.argv[2] === 'search') {
-  paribasan.search(process.argv[3]).then((searchResult) => {
-    searchResult.forEach((el, index, array) => {
-      console.log(`${index + 1}. ${el}`)
-    })
-  })
-} else if (process.argv[2] === 'init') {
-  paribasan.indexing().then((status) => {
-    console.log('Indexing ok')
-  })
+  paribasan.search(process.argv[3])
 } else {
   let randParibasan = paribasan.get()
   console.log(`"${randParibasan.paribasa}" - ${randParibasan.jawa}`)
