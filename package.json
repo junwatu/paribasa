@@ -29,7 +29,7 @@
     "paribasa": "./bin/paribasa"
   },
   "engines": {
-    "node": ">4.0.0"
+    "node": ">8.0.0"
   },
   "license": "MIT",
   "dependencies": {
