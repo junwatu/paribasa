@@ -14,14 +14,9 @@ $ paribasa
 
 Search Paribasa based on word
 
-```
-$ paribasa search wani
-1. Kebo lumumpat ing palang - Ngadili prakara ora nganggo waton
-2. Sapa sira sapa ingsun - Aja waton ngguroni utawa mréntah wong liya
-3. Alon-alon waton kelakon - Aja kesusu, ananging ajeg garap apa kang dadi tanggung jawabé
+![nggoleki-paribasa.jpg](nggoleki-paribasa.jpg)
 
-```
-or you can see API documentaion on [API.md](API.md)
+or you can see API documentation on [API.md](API.md)
 
 ## Library
 
