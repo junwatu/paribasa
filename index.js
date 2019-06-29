@@ -1,6 +1,8 @@
-/**__JS__ 
+/**
  * Paribasa - Javanese Wisdom and Quote
  * (c) 2015-2019
+ * 
+ * MIT LICENSE
  */
 
 'use strict'
@@ -17,7 +19,6 @@ const index = require('flexsearch').create({
     }
 })
 const gradient = require('gradient-string')
-const randomColor = require('randomcolor')
 
 function Paribasan() { }
 
@@ -28,14 +29,19 @@ Paribasan.init = () => {
     })
 }
 
-Paribasan.prototype.search = (q) => {
+Paribasan.prototype.search = (q, cf) => {
     Paribasan.init()
     console.log(`Paribasa ${info.version}`)
     console.log('')
     index.search(q, 100, (result) => {
         console.log(`Hasile: [${result.length}]`)
         result.map((val, idx) => {
-            console.log(`${idx + 1}. ${gradient(randomColor(), randomColor())(val.paribasa)} - ${gradient(randomColor(), randomColor())(val.jawa)}`)
+            if(!cf){
+                console.log(`${idx + 1}. ${val.paribasa} - ${val.jawa}`)
+            } else {
+                console.log(`${idx + 1}. ${gradient.summer(val.paribasa)} - ${gradient.vice(val.jawa)}`)
+            }
+            
         })
     })
 }
