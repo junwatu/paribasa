@@ -3,9 +3,11 @@
 
 /**
  * 
+Paribasa - Javanese Wisdom and Quote
+ 
 MIT License
 
-Copyright 2019 @junwatu
+Copyright 2015-2019 @junwatu
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this 
 software and associated documentation files (the "Software"), to deal in the Software 
@@ -22,7 +24,12 @@ PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS 
 FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR 
 OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
 DEALINGS IN THE SOFTWARE.
-* 
+
+
+#######################################################################################
+Intie sakarepmu tapi elokno lisensi ndek nduwur iku.
+#######################################################################################
+
 */
 
 const paribasan = require('../index.js')
@@ -30,8 +37,8 @@ const gradient = require('gradient-string')
 const randomColor = require('randomcolor')
 const program = require('commander')
 
-program.option('search --search <string>', 'find javanese quotes', null)
-program.option('-n --no-color', 'no color for output')
+program.option('search --search <string>', 'find quotes [nggoleki paribasa]', null)
+program.option('-n --no-color', 'no color [ra usah werno]')
 program.parse(process.argv)
 
 if (program.search == null) {
