@@ -2,10 +2,14 @@
 'use strict'
 
 const paribasan = require('../index.js')
+const gradient = require('gradient-string')
+const randomColor = require('randomcolor')
+const chalk = require('chalk')
+const out = console.log
 
 if (process.argv[2] === 'search') {
   paribasan.search(process.argv[3])
 } else {
   let randParibasan = paribasan.get()
-  console.log(`"${randParibasan.paribasa}" - ${randParibasan.jawa}`)
+  out(`"${gradient(randomColor(), randomColor())(randParibasan.paribasa)}" - ${gradient(randomColor(), randomColor())(randParibasan.jawa)}`)
 }

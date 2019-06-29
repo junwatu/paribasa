@@ -16,6 +16,8 @@ const index = require('flexsearch').create({
         field: ['data:paribasa', 'data:jawa']
     }
 })
+const gradient = require('gradient-string')
+const randomColor = require('randomcolor')
 
 function Paribasan() { }
 
@@ -33,23 +35,23 @@ Paribasan.prototype.search = (q) => {
     index.search(q, 100, (result) => {
         console.log(`Hasile: [${result.length}]`)
         result.map((val, idx) => {
-            console.log(`${idx+1}. ${val.paribasa} - ${val.jawa}`)
+            console.log(`${idx + 1}. ${gradient(randomColor(), randomColor())(val.paribasa)} - ${gradient(randomColor(), randomColor())(val.jawa)}`)
         })
     })
 }
 
 Paribasan.prototype.get = () => {
-  let paribasan_array = Paribasan._toArray(paribasan_jawa)
-  let moratmarit = paribasan_jawa[Math.floor(Math.random() * paribasan_array.length)]
-  return moratmarit
+    let paribasan_array = Paribasan._toArray(paribasan_jawa)
+    let moratmarit = paribasan_jawa[Math.floor(Math.random() * paribasan_array.length)]
+    return moratmarit
 }
 
 Paribasan._toArray = (paribasan_object) => {
     let x = 0
     return Object.keys(paribasan_object).map((k) => {
-      paribasan_object[k]._id = x++
-      return paribasan_object[k]
-  })
+        paribasan_object[k]._id = x++
+        return paribasan_object[k]
+    })
 }
 
 module.exports = new Paribasan()
