@@ -34,7 +34,9 @@
   "license": "MIT",
   "dependencies": {
     "chalk": "^2.4.2",
+    "commander": "^2.20.0",
     "flexsearch": "^0.6.22",
-    "gradient-string": "^1.2.0"
+    "gradient-string": "^1.2.0",
+    "randomcolor": "^0.5.4"
   }
 }
