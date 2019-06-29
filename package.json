@@ -1,6 +1,6 @@
 {
   "name": "paribasa",
-  "version": "2.0.0",
+  "version": "2.1.0-beta",
   "description": "Javanese Quote aka Paribasa",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,10 @@
     "quote",
     "peribahasa",
     "jawa",
-    "javanese quotes"
+    "javanese quotes",
+    "peribahasa jawa",
+    "indonesia",
+    "wisdom"
   ],
   "homepage": "https://github.com/junwatu/paribasa",
   "bugs": "https://github.com/junwatu/paribasa/issues",
@@ -30,6 +33,8 @@
   },
   "license": "MIT",
   "dependencies": {
-    "flexsearch": "^0.6.22"
+    "chalk": "^2.4.2",
+    "flexsearch": "^0.6.22",
+    "gradient-string": "^1.2.0"
   }
 }
