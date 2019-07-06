@@ -2,6 +2,12 @@
 
 Paribasa is, you can call it as Javanese quotes. This module can be use as CLI or import the library to your application.
 
+## Installation
+
+```
+$ npm install -g @junwatu/paribasa
+```
+
 ## CLI
 
 Randomize Paribasa
