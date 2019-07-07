@@ -5,20 +5,25 @@ Only for developer and those who want to be a developer.
 ```
 let paribasa = require('paribasa')
 ```
-
-## paribasa.get()
-
-This api will return randomize paribasa object
+or ES6 Module
 
 ```
-console.log(paribasa.get())
-{ paribasa: 'Tulung menthung', jawa: 'Ditulungi malah ngrusuhi.' }
+import * as paribasa from 'paribasa'
+```
+
+## `paribasa.getRandomQuote()`
+
+This api will return randomize paribasan `array`
+
+```
+console.log(paribasa.getRandomQuote())
+[{ paribasa: 'Tulung menthung', jawa: 'Ditulungi malah ngrusuhi.' }]
 
 ```
 
-## paribasa.search(word)
+## `paribasa.searchQuote(word)`
 
-This method will return all paribasa that contain the search keyword.
+This method will return `array` of all paribasa that contain the search keyword.
 
 > NOTE: Javanese heavily use accented letter so for the keyword with
 > accented letter such as 'duwé' versus 'duwe' will have different search result 
