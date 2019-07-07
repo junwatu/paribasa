@@ -11,7 +11,7 @@ Aplikasi iki di gawe mbantu ngilingake paribasa jawa seng jumlae wuakeh.
 Install aplikasi Paribasa iki disek nang komputermu (dianggep sakdurunge ndek komputermu kudu wes terinstall Node.js versi 4 menduwur)
 
 ```
-# npm install -g @junwatu/paribasa
+$ npm install -g @junwatu/paribasa
 
 ```
 terus supoyo salah siji paribasa iso metu ndek tampilan terminal misale lek awakmu nggawe OS Linux,
@@ -25,6 +25,14 @@ $ paribasa
 Nggawe alat iki awakmu yo iso nggoleki paribasa tekok kata, contone
 
 ![nggoleki-paribasa.jpg](nggoleki-paribasa.jpg)
+
+
+lek gak seneng werno-wernoan, nggaweo pilihan `-n` 
+
+```
+$ paribasa -n search wani
+```
+
 
 ## Pustaka
 Lek awakmu developer, aplikasi iki iso digawe pisan ndek aplikasimu istilahe **di import**
