@@ -34,7 +34,7 @@ $ paribasa -n search wani
 ```
 
 
-## API Pustaka
+## API Pustaka v3.0.0
 Lek awakmu developer, aplikasi iki iso digawe pisan ndek aplikasimu istilahe **di import**
 
 ```
@@ -49,7 +49,7 @@ console.log(query_quote)
 ```
 
 ## Kompatibilitas
-> Paribasan API versi 2.1.0 mendhuwur ora kompatibel karo API versi sakdurunge.
+> Paribasan API versi 3.0.0 mendhuwur ora kompatibel karo API versi sakdurunge.
 
 Luwih jelase deloken nang berkas [API](API.md) tapi jek bahasa inggris. 
 

@@ -24,12 +24,15 @@ Search Paribasa based on word
 
 or you can see API documentation on [API.md](API.md)
 
-## Library
+## Paribasa API v3.0.0
 
 ```
-var paribasa = require('paribasa')
+import * as paribasa from 'paribasa'
 // random output
-console.log(paribasa.get())
+console.log(paribasa.getRandomQuote())
+// query
+console.log(paribasa.searchQuote('ala'))
+
 ```
 
 ---
