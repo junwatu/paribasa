@@ -8,7 +8,7 @@ Aplikasi iki di gawe mbantu ngilingake paribasa jawa seng jumlae wuakeh.
 
 ## Carane
 
-Install aplikasi Paribasa iki disek nang komputermu (dianggep sakdurunge ndek komputermu kudu wes terinstall Node.js versi 4 menduwur)
+Install aplikasi Paribasa iki disek nang komputermu (dianggep sakdurunge ndek komputermu kudu wes terinstall Node.js versi 8 menduwur)
 
 ```
 $ npm install -g @junwatu/paribasa
@@ -34,14 +34,22 @@ $ paribasa -n search wani
 ```
 
 
-## Pustaka
+## API Pustaka
 Lek awakmu developer, aplikasi iki iso digawe pisan ndek aplikasimu istilahe **di import**
 
 ```
-var paribasa = require('paribasa')
+const paribasa = require('paribasa')
 // random output
-console.log(paribasa.get())
+let quote = paribasa.getRandomQuote()
+console(quote)
+
+// nggoleki paribasan sing ono kata 'wani'
+let query_quote = paribasa.searchQuote('wani')
+console.log(query_quote)
 ```
+
+## Kompatibilitas
+> Paribasan API versi 2.1.0 mendhuwur ora kompatibel karo API versi sakdurunge.
 
 Luwih jelase deloken nang berkas [API](API.md) tapi jek bahasa inggris. 
 
