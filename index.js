@@ -44,7 +44,9 @@ const index = require('flexsearch').create({
 })
 const gradient = require('gradient-string')
 
-function Paribasan() { }
+function Paribasan() {
+
+}
 
 Paribasan.init = () => {
     let paribasan_jawa_array = Paribasan._toArray(paribasan_jawa)
@@ -53,20 +55,16 @@ Paribasan.init = () => {
     })
 }
 
-Paribasan.prototype.search = (q, cf) => {
+Paribasan.prototype.search_api = async (q) => {
     Paribasan.init()
-    console.log(`Paribasa ${info.version}`)
-    console.log('')
-    index.search(q, 100, (result) => {
-        console.log(`Hasile: [${result.length}]`)
-        result.map((val, idx) => {
-            if(!cf){
-                console.log(`${idx + 1}. ${val.paribasa} - ${val.jawa}`)
-            } else {
-                console.log(`${idx + 1}. ${gradient.summer(val.paribasa)} - ${gradient.vice(val.jawa)}`)
-            }
+    let search_res = new Promise((resolve, reject) => {
+        index.search(q, 100, (q_result) => {
+            q_result ? resolve(q_result) : reject(new Error("Error"))
         })
     })
+
+    let result = await search_res
+    return result
 }
 
 Paribasan.prototype.get = () => {
@@ -75,11 +73,31 @@ Paribasan.prototype.get = () => {
     return moratmarit
 }
 
+Paribasan.prototype.get_api = () => {
+    const _arr = []
+    _arr.push(Paribasan.prototype.get())
+    return _arr
+}
+
 Paribasan._toArray = (paribasan_object) => {
     let x = 0
     return Object.keys(paribasan_object).map((k) => {
         paribasan_object[k]._id = x++
         return paribasan_object[k]
+    })
+}
+
+Paribasan.prototype.search = (q, cf) => {
+    console.log(`Paribasa ${info.version}`)
+    Paribasan.prototype.search_api(q).then(result => {
+        console.log(`Hasile: [${result.length}]`)
+        result.map((val, idx) => {
+            if (!cf) {
+                console.log(`${idx + 1}. ${val.paribasa} - ${val.jawa}`)
+            } else {
+                console.log(`${idx + 1}. ${gradient.summer(val.paribasa)} - ${gradient.vice(val.jawa)}`)
+            }
+        })
     })
 }
 
