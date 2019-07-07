@@ -55,7 +55,7 @@ Paribasan.init = () => {
     })
 }
 
-Paribasan.prototype.search_api = async (q) => {
+Paribasan.prototype.searchQuote = async (q) => {
     Paribasan.init()
     let search_res = new Promise((resolve, reject) => {
         index.search(q, 100, (q_result) => {
@@ -73,7 +73,7 @@ Paribasan.prototype.get = () => {
     return moratmarit
 }
 
-Paribasan.prototype.get_api = () => {
+Paribasan.prototype.getRandomQuote = () => {
     const _arr = []
     _arr.push(Paribasan.prototype.get())
     return _arr
@@ -89,7 +89,7 @@ Paribasan._toArray = (paribasan_object) => {
 
 Paribasan.prototype.search = (q, cf) => {
     console.log(`Paribasa ${info.version}`)
-    Paribasan.prototype.search_api(q).then(result => {
+    Paribasan.prototype.searchQuote(q).then(result => {
         console.log(`Hasile: [${result.length}]`)
         result.map((val, idx) => {
             if (!cf) {
