@@ -23,7 +23,7 @@ console.log(paribasa.getRandomQuote())
 
 ## `paribasa.searchQuote(word)`
 
-This method will return `array` of all paribasa that contain the search keyword.
+This method will return `promise`, result of all paribasa that contain the search keyword.
 
 > NOTE: Javanese heavily use accented letter so for the keyword with
 > accented letter such as 'duwé' versus 'duwe' will have different search result 

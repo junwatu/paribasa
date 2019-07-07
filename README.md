@@ -44,8 +44,8 @@ let quote = paribasa.getRandomQuote()
 console(quote)
 
 // nggoleki paribasan sing ono kata 'wani'
-let query_quote = paribasa.searchQuote('wani')
-console.log(query_quote)
+paribasa.searchQuote('wani').then(r => console.log(r))
+
 ```
 
 ## Kompatibilitas

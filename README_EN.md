@@ -31,7 +31,7 @@ import * as paribasa from 'paribasa'
 // random output
 console.log(paribasa.getRandomQuote())
 // query
-console.log(paribasa.searchQuote('ala'))
+paribasa.searchQuote('ala').then(r => console.log(r))
 
 ```
 
