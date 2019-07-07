@@ -1,6 +1,6 @@
 {
   "name": "@junwatu/paribasa",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "Javanese Quote aka Paribasa",
   "main": "index.js",
   "scripts": {
