@@ -1,4 +1,5 @@
-# Paribasa
+# Paribasa 
+[![Build Status](https://travis-ci.org/junwatu/paribasa.svg?branch=master)](https://travis-ci.org/junwatu/paribasa)
 
 > This readme is written in javanese language, for english please read in [README_EN](README_EN.md). 
 > Thanks
