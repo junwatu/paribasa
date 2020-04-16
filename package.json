@@ -44,6 +44,7 @@
   },
   "devDependencies": {
     "jest": "^24.8.0",
-    "minimist": ">=1.2.3"
+    "minimist": ">=1.2.3",
+    "kind-of": ">=6.0.3"
   }
 }
